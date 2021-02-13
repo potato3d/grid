@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "grid", "grid.vcproj", "{C73B3EED-6308-47E8-A0D5-9A62831EF260}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gridcuda", "gridcuda.vcproj", "{B6AEC636-809A-4AD8-82C8-9304510E2F77}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "grid app", "grid app.vcproj", "{F8B8E916-1E2A-4141-817E-133EA9F5BB8C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B6AEC636-809A-4AD8-82C8-9304510E2F77} = {B6AEC636-809A-4AD8-82C8-9304510E2F77}
+		{C73B3EED-6308-47E8-A0D5-9A62831EF260} = {C73B3EED-6308-47E8-A0D5-9A62831EF260}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		EmuDebug|Win32 = EmuDebug|Win32
+		EmuRelease|Win32 = EmuRelease|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C73B3EED-6308-47E8-A0D5-9A62831EF260}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C73B3EED-6308-47E8-A0D5-9A62831EF260}.Debug|Win32.Build.0 = Debug|Win32
+		{C73B3EED-6308-47E8-A0D5-9A62831EF260}.EmuDebug|Win32.ActiveCfg = Debug|Win32
+		{C73B3EED-6308-47E8-A0D5-9A62831EF260}.EmuDebug|Win32.Build.0 = Debug|Win32
+		{C73B3EED-6308-47E8-A0D5-9A62831EF260}.EmuRelease|Win32.ActiveCfg = Release|Win32
+		{C73B3EED-6308-47E8-A0D5-9A62831EF260}.EmuRelease|Win32.Build.0 = Release|Win32
+		{C73B3EED-6308-47E8-A0D5-9A62831EF260}.Release|Win32.ActiveCfg = Release|Win32
+		{C73B3EED-6308-47E8-A0D5-9A62831EF260}.Release|Win32.Build.0 = Release|Win32
+		{B6AEC636-809A-4AD8-82C8-9304510E2F77}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B6AEC636-809A-4AD8-82C8-9304510E2F77}.Debug|Win32.Build.0 = Debug|Win32
+		{B6AEC636-809A-4AD8-82C8-9304510E2F77}.EmuDebug|Win32.ActiveCfg = EmuDebug|Win32
+		{B6AEC636-809A-4AD8-82C8-9304510E2F77}.EmuDebug|Win32.Build.0 = EmuDebug|Win32
+		{B6AEC636-809A-4AD8-82C8-9304510E2F77}.EmuRelease|Win32.ActiveCfg = EmuRelease|Win32
+		{B6AEC636-809A-4AD8-82C8-9304510E2F77}.EmuRelease|Win32.Build.0 = EmuRelease|Win32
+		{B6AEC636-809A-4AD8-82C8-9304510E2F77}.Release|Win32.ActiveCfg = Release|Win32
+		{B6AEC636-809A-4AD8-82C8-9304510E2F77}.Release|Win32.Build.0 = Release|Win32
+		{F8B8E916-1E2A-4141-817E-133EA9F5BB8C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F8B8E916-1E2A-4141-817E-133EA9F5BB8C}.Debug|Win32.Build.0 = Debug|Win32
+		{F8B8E916-1E2A-4141-817E-133EA9F5BB8C}.EmuDebug|Win32.ActiveCfg = Debug|Win32
+		{F8B8E916-1E2A-4141-817E-133EA9F5BB8C}.EmuDebug|Win32.Build.0 = Debug|Win32
+		{F8B8E916-1E2A-4141-817E-133EA9F5BB8C}.EmuRelease|Win32.ActiveCfg = Release|Win32
+		{F8B8E916-1E2A-4141-817E-133EA9F5BB8C}.EmuRelease|Win32.Build.0 = Release|Win32
+		{F8B8E916-1E2A-4141-817E-133EA9F5BB8C}.Release|Win32.ActiveCfg = Release|Win32
+		{F8B8E916-1E2A-4141-817E-133EA9F5BB8C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
