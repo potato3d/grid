@@ -3,6 +3,8 @@ GPU-Accelerated Uniform Grid Construction for Ray Tracing
 
 Source code for the article [GPU-Accelerated Uniform Grid Construction for Ray Tracing](http://www.dbd.puc-rio.br/depto_informatica/09_14_ivson.pdf)
 
+This repository is a library that implements the uniform grid construction algorithm. Checkout the companion project [grid-rt](https://github.com/potato3d/grid-rt) for the GPU-based ray tracing application.
+
 # Description
 
 The library includes two implementations of uniform grid construction
